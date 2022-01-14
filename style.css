@@ -1,4 +1,115 @@
 h1{
-    color: green;
+    color: #198754;;
     text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    padding: 50px;
+}
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: #198754;;
+    width: 100px;
+    content: '';
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.nav a{
+    color: black;
+    list-style: none;
+}
+.details{
+    box-shadow: 0 0 5px black;
+    background-color: #198754;;
+    border-radius: 10px;
+}
+
+.details p{
+    color: black;
+}
+.details .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+    margin-bottom: 20px;
+}
+.details .btn-1{
+    background-color: chocolate;
+    color: wheat;
+    margin-right: 15px;
+}
+.details_2 .btn{
+    
+    background-color: chocolate;
+    color: wheat;
+    margin-right: 15px;
+}
+.details_3 .btn-1{
+    background-color: chocolate;
+    color: wheat;
+    margin-right: 15px;
+    position: relative;
+    left: 850px;
+    bottom: 250px;
+}
+.sorties-details{
+    text-align: center;
+
+}
+.sorties-details img{
+    height: 50%;
+    border-radius: 50%;
+}
+#image_et_texte{
+    background-image: url(./ressources/images/contact.jpeg);
+    color: honeydew;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+.sorties-details{
+    box-shadow: 0 0 5px black;
+    background-color: #198754;;
+    border-radius: 50px;
+}
+footer{
+    margin: 10px;
+    text-align: center;
+    background-color: #198754;;
+}
+footer img{
+
+    margin: 10px;
+    padding: 5px;
+}
+@media screen and (max-width: 800px) {
+    .details{
+        width: 200%;
+        height: 100%;
+    }
+    .details .btn-1{
+        position: relative;
+        bottom: 40%;
+        left: 80%;
+    }
+    .details_3 .btn-1{
+        display: none;
+    }
+    .sorties-details img{
+        width: 50%;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .details_2 .btn-1{
+        margin-bottom: 10%;
+       
+    }
 }
