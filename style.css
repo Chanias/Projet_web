@@ -66,6 +66,7 @@ p{
     box-shadow: 0 0 5px black;
     background-color: #198754;
     border-radius: 10px;
+    padding: 1em;
 }
 .details p{
     color: black;
@@ -79,12 +80,15 @@ p{
     bottom: 250px;
 }
 #image_et_texte{
-    background-image: url(./ressources/images/contact.jpeg);
+    background-image: url(./ressources/images/contact_reduite.jpeg);
     color: honeydew;
     background-position: center;
     background-size: cover; 
-    height: 10em;
+    height: 20em;
     margin: 0.5em;
+}
+#image_et_texte p{
+    margin: 3em;
 }
 footer{
     margin: 10px;
@@ -123,10 +127,13 @@ footer img{
 .card span{
     box-shadow: 0 0 5px#198754;
     background-color: #198754;
+    
 }
-
+.card i{
+    padding: 1em;
+}
 #rando img{
-        width: 60%;
+        
         height: auto;
         border-radius: 20%;
         margin-left: 20%;
@@ -182,8 +189,8 @@ blockquote p::after {
     justify-content: end;
     margin-top: 20px;
 }
-#check .form-check{
-    padding-top: 2em;
+.form-check{
+    padding-top: 4em;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -222,7 +229,7 @@ span{
  
 /*PAGE A PROPOS*/
 #perso{
-        background-image: url(./ressources/images/reduites/tudor-baciu-vc3iVL_znJ8-unsplash_ccexpress.jpeg);
+        background-image: url(./ressources/images/petites/tudor-baciu-vc3iVL_znJ8-unsplash_ccexpress.jpeg);
         color: honeydew;
         background-position: center;
         background-size: cover; 
