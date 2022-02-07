@@ -1,4 +1,4 @@
-/*PAGE ACTIVITE*/
+
 /*GLOBAL*/
 h1{
     color: #198754;
@@ -117,20 +117,25 @@ footer img{
 }
 
 /*PAGE ACTIVITE*/
-.card{
+#bandeau {
+    text-align:center;
+    padding:50px 90px;
     box-shadow: 0 0 5px black;
     background-color: #198754;
     border-radius: 50px;
     text-align: center;
 }
-
-.card span{
-    box-shadow: 0 0 5px#198754;
-    background-color: #198754;
-    
+#bandeau i {
+    font-size:600%;
 }
-.card i{
+
+#autre p{
+    text-align: center;
+}
+#autre span {
+    box-shadow: 5px 5px 5px black;
     padding: 1em;
+    margin: 1em;
 }
 #rando img{
         
@@ -139,8 +144,10 @@ footer img{
         margin-left: 20%;
     }
 .map{
+    padding-top: 2em;
    display: flex;
-   justify-content: end;
+   justify-content: center;
+   
 }
 blockquote{
     font-style: italic;
@@ -230,24 +237,11 @@ span{
  
 /*PAGE A PROPOS*/
 #perso{
-        background-image: url(./ressources/images/petites/tudor-baciu-vc3iVL_znJ8-unsplash_ccexpress.jpeg);
-        color: honeydew;
-        background-position: center;
-        background-size: cover; 
-        height: 15em;
-        margin: 0.5em;
-    }
-    #perso p{
-        font-size: 1.5em;
-        width: auto;
-    }
-    #perso a{
-        color: honeydew;
-        list-style: none;
-        text-decoration: none;
-    }
+        
+        
+}
 
-
+  
 /*MEDIA SCREEN*/
 @media screen and (max-width: 800px) {
     .details{
@@ -265,18 +259,27 @@ span{
     .sorties-details img{
         width: 50%;
     }
+    
 }
 @media  screen and (max-width: 768px) {
     .details_2 .btn-1{
         margin-bottom: 10%;
        
     }
+    
 }
  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
  @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+    #rando img{
+       margin-left: 1em;
+    }
+    #perso p{
+        font-size: 1em;
+       
     }
   }
 
